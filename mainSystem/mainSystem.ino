@@ -47,9 +47,10 @@
 #include <WS2812FX.h>
 #include <WiFiUDP.h>
 
-char auth[] = "f1ed5674a08345bc9382431a77a859a5";
-char ssid[] = "1337";
-char pass[] = "xX1337Xx";
+// Authorization token for Blynk + WiFi Credentials for the WeMos to connect
+char auth[] = "AUTHORIZATION_TOKEN";
+char ssid[] = "SSID";
+char pass[] = "PASSWORD";
 
 // Global Variables:
 BlynkTimer leetTimer;
